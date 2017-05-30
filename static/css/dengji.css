@@ -1,0 +1,82 @@
+@import url(resetH5.css);
+@import url(base.css);
+.message {
+  background-color: #f55;
+  box-sizing: border-box;
+  padding: 30px 20px;
+  overflow: hidden; }
+  .message .touxiang {
+    width: 70px;
+    height: 70px;
+    float: left; }
+  .message .right-box {
+    float: left;
+    height: 70px;
+    line-height: 35px;
+    margin-left: 10px; }
+    .message .right-box .top-txt {
+      font-size: 18px;
+      color: #fff; }
+    .message .right-box .btm-txt {
+      font-size: 14px;
+      color: #fff; }
+      .message .right-box .btm-txt .right {
+        padding-left: 30px; }
+
+.abt {
+  border-bottom-color: #eee;
+  height: 40px;
+  line-height: 40px;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 10px; }
+  .abt .myt {
+    font-size: 14px;
+    color: #333; }
+  .abt .right-box {
+    float: right; }
+    .abt .right-box .wen {
+      width: 14px;
+      margin-bottom: -1px; }
+    .abt .right-box .about {
+      font-size: 14px;
+      color: #4590cb;
+      padding-left: 3px;
+      float: right; }
+
+.list-area .item {
+  padding: 0 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+  .list-area .item:nth-child(1) a {
+    border-top: 1px solid #eee; }
+  .list-area .item a {
+    display: block;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    overflow: hidden; }
+    .list-area .item a .left-img {
+      width: 70px;
+      height: 70px;
+      float: left;
+      padding-top: 10px; }
+    .list-area .item a .right-box {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      padding: 10px 0;
+      padding-left: 80px; }
+      .list-area .item a .right-box .subt {
+        line-height: 20px;
+        display: inline-block;
+        color: #333;
+        font-size: 14px;
+        font-family: sans-serif; }
+        .list-area .item a .right-box .subt .title {
+          font-size: 16px;
+          line-height: 28px; }
+
+/*# sourceMappingURL=dengji.css.map */

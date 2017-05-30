@@ -1,0 +1,67 @@
+@import url(resetH5.css);
+@import url(base.css);
+.yue-area {
+  text-align: center; }
+  .yue-area .des {
+    font-size: 16px;
+    color: #333;
+    margin-top: 60px; }
+  .yue-area .number {
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #333;
+    line-height: 80px; }
+  .yue-area .chong {
+    border: 1px solid rgba(255, 85, 85, 0.5);
+    width: 90px;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 16px;
+    color: #f55;
+    background-color: #fff; }
+  .yue-area .fan {
+    font-size: 12px;
+    color: #f55;
+    height: 40px;
+    line-height: 40px; }
+
+.list-area .item {
+  padding: 0 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+  .list-area .item:nth-child(1) a {
+    border-top: 1px solid #eee; }
+  .list-area .item a {
+    display: block;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    overflow: hidden; }
+    .list-area .item a .left-img {
+      width: 50px;
+      height: 50px;
+      float: left; }
+    .list-area .item a .right-box {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      padding-left: 60px;
+      height: 50px; }
+      .list-area .item a .right-box .txt {
+        line-height: 25px;
+        display: inline-block; }
+        .list-area .item a .right-box .txt .name {
+          color: #333;
+          font-size: 14px; }
+        .list-area .item a .right-box .txt .time {
+          color: #c9c9c9;
+          font-size: 12px;
+          font-family: sans-serif; }
+      .list-area .item a .right-box .money {
+        height: 50px;
+        line-height: 50px;
+        float: right;
+        color: #f55;
+        font-size: 14px; }
+
+/*# sourceMappingURL=yue.css.map */

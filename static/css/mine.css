@@ -1,0 +1,88 @@
+@import url(resetH5.css);
+@import url(base.css);
+html, body {
+  height: 100%; }
+
+.container {
+  min-height: 100%;
+  background-color: #eee;
+  padding-top: 10px;
+  overflow: hidden; }
+
+.list-area {
+  overflow: hidden;
+  background-color: #fff; }
+  .list-area .item {
+    padding: 0 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+    .list-area .item a {
+      display: block;
+      height: 50px;
+      line-height: 50px;
+      border-bottom: 1px solid #eee; }
+      .list-area .item a .item-name {
+        font-size: 14px;
+        color: #333; }
+      .list-area .item a .right-box {
+        float: right;
+        height: 50px;
+        overflow: hidden; }
+        .list-area .item a .right-box .avatar {
+          width: 48px; }
+        .list-area .item a .right-box .level {
+          color: #333;
+          font-size: 14px;
+          margin-right: 3px; }
+          .list-area .item a .right-box .level .sex {
+            width: 16px;
+            margin-bottom: -2px; }
+        .list-area .item a .right-box .unclick {
+          width: 50px;
+          margin-right: 3px;
+          margin-bottom: -5px; }
+        .list-area .item a .right-box .set {
+          width: 8px;
+          margin-bottom: -1px; }
+
+.sex-area {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6); }
+  .sex-area .sex-box {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 10px;
+    font-size: 16px; }
+    .sex-area .sex-box .sexes {
+      width: 100%; }
+      .sex-area .sex-box .sexes .item {
+        background-color: #fff;
+        height: 40px;
+        line-height: 40px;
+        text-align: center; }
+        .sex-area .sex-box .sexes .item .icon {
+          width: 14px;
+          margin-left: 5px;
+          margin-bottom: -1px; }
+      .sex-area .sex-box .sexes .nan {
+        border-radius: 5px 5px 0 0;
+        border-bottom: 1px solid #eee; }
+      .sex-area .sex-box .sexes .nv {
+        border-radius: 0 0 5px 5px; }
+    .sex-area .sex-box .cancel {
+      width: 100%;
+      border-radius: 5px;
+      background-color: #fff;
+      height: 40px;
+      line-height: 40px;
+      font-size: 16px; }
+
+/*# sourceMappingURL=mine.css.map */

@@ -1,0 +1,91 @@
+@import url(resetH5.css);
+@import url(../lib/swiper.min.css);
+@import url(base.css);
+
+html,body{
+  height:100%;
+}
+.container{
+  min-height: 100%;
+  background-color: #eee;
+}
+.banner-area{
+  .img{
+    display: block;
+    width:100%;
+    min-height:100px;
+  }
+}
+
+.jifen-area{
+  background-color: #fff;
+  height:50px;
+  line-height:50px;
+  padding:0 10px;
+  .left-box{
+    float: left;
+    .txt{
+      font-size: 14px;
+      color: #333;
+    }
+  }
+  .right-box{
+    padding-left: 10px;
+    border-left:1px solid #eee;
+    float: right;
+    .number{
+      font-size: 15px;
+      color: #f55;
+    }
+  }
+}
+
+.detail-area{
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: #fff;
+  .desc{
+    color: #333;
+    font-size:14px;
+    line-height:24px;
+  }
+  .tishi{
+    color: #f55;
+    font-size:15px;
+    overflow: hidden;
+    line-height:26px;
+    .left{
+      float: left;
+      width:75px;
+    }
+    .right{
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      padding-left: 75px;
+    }
+  }
+}
+.btm-area{
+  position: fixed;
+  left:0;
+  bottom:0;
+  width:100%;
+  height:50px;
+  line-height: 50px;
+  background-color: #fff;
+  .left{
+    float: left;
+    color: #333;
+    padding-left: 10px;
+    font-size:14px;
+  }
+  .right{
+    float: right;
+    background-color: #f55;
+    color: #fff;
+    height:50px;
+    font-size: 16px;
+    padding:0 20px;
+  }
+}

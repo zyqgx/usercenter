@@ -1,0 +1,114 @@
+@import url(resetH5.css);
+@import url(base.css);
+
+.message{
+  background-color: #f55;
+  box-sizing: border-box;
+  padding:30px 20px;
+  overflow: hidden;
+  .touxiang{
+    width:70px;
+    height:70px;
+    float: left;
+  }
+  .right-box{
+    float: left;
+    height:70px;
+    line-height:35px;
+    margin-left: 10px;
+    .top-txt{
+      font-size:18px;
+      color: #fff;
+    }
+    .btm-txt{
+      font-size: 14px;
+      color: #fff;
+      .right{
+        padding-left:30px;
+      }
+    }
+  }
+}
+
+
+.abt {
+  border-bottom-color: #eee;
+  height:40px;
+  line-height:40px;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding:0 10px;
+  .myt {
+    font-size: 14px;
+    color: #333;
+  }
+  .right-box{
+    float: right;
+    .wen{
+      width:14px;
+      margin-bottom: -1px;
+    }
+    .about{
+      font-size: 14px;
+      color: #4590cb;
+      padding-left: 3px;
+      float: right;
+    }
+  }
+
+}
+
+    .list-area{
+      .item{
+        &:nth-child(1){
+          a{
+            border-top: 1px solid #eee;
+          }
+        }
+        padding:0 10px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+
+        a{
+          display: block;
+
+          padding: 10px 0;
+          border-bottom: 1px solid #eee;
+          overflow: hidden;
+          .left-img{
+            width:70px;
+            height:70px;
+            float: left;
+            padding-top: 10px;
+          }
+          .right-box{
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            padding: 10px 0;
+            padding-left: 80px;
+            .subt{
+              line-height:20px;
+              display: inline-block;
+              color: #333;
+              font-size: 14px;
+              font-family: sans-serif;
+              .title{
+                font-size:16px;
+                line-height:28px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+
+
+
+
+
+

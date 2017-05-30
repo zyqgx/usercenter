@@ -1,0 +1,31 @@
+@import url(resetH5.css);
+@import url(../lib/swiper.min.css);
+@import url(base.css);
+html, body {
+  height: 100%; }
+
+.container {
+  min-height: 100%;
+  background-color: #fff; }
+
+.kong-area {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff; }
+  .kong-area .kong-box {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; }
+    .kong-area .kong-box .img-icon {
+      width: 60px; }
+    .kong-area .kong-box .txt {
+      line-height: 40px;
+      font-size: 16px;
+      color: #333; }
+
+/*# sourceMappingURL=jilu.css.map */

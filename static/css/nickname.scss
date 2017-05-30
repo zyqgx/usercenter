@@ -1,0 +1,61 @@
+@import url(resetH5.css);
+@import url(base.css);
+html,body{
+  height:100%;
+  background-color: #eee;
+}
+.container{
+  min-height: 100%;
+  background-color: #eee;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+
+.edit-area{
+  overflow: hidden;
+  background-color: #fff;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding:10px;
+  overflow: hidden;
+  .left-box{
+    height:30px;
+    line-height:30px;
+    float: left;
+    font-size:16px;
+    .input{
+      padding-left:10px;
+      font-size: 16px;
+      height:24px;
+      line-height:24px;
+      background-color: #fff;
+      width:180px;
+    }
+  }
+  .right-box{
+    float: right;
+    width: 30px;
+    height:30px;
+    box-sizing: border-box;
+    padding:3px;
+    .close{
+      background-color: #999;
+      width:18px;
+      height:18px;
+      line-height:18px;
+      border-radius: 50%;
+      color: #fff;
+    }
+  }
+}
+.btn-save{
+  border:1px solid #f55;
+  border-radius: 5px;
+  color: #f55;
+  width:100px;
+  margin:8px 10px;
+  background-color: #fff;
+  font-size:17px;
+  height:38px;
+}

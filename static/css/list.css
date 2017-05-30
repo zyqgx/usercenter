@@ -1,0 +1,79 @@
+@import url(resetH5.css);
+@import url(../lib/swiper.min.css);
+@import url(base.css);
+html, body {
+  height: 100%; }
+
+.container {
+  min-height: 100%;
+  background-color: #eee; }
+
+.btn-area {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #fff;
+  height: 50px;
+  padding: 5px 20%;
+  position: fixed;
+  left: 0;
+  top: 0; }
+  .btn-area .btn {
+    height: 40px;
+    font-size: 16px;
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    border: 1px solid #f55;
+    background-color: #fff;
+    color: #f55; }
+  .btn-area .l-btn {
+    border-radius: 5px 0 0 5px; }
+  .btn-area .r-btn {
+    border-radius: 0 5px 5px 0; }
+  .btn-area .on {
+    background-color: #f55;
+    color: #fff; }
+
+.keyong-area {
+  box-sizing: border-box;
+  padding: 10px;
+  display: none; }
+  .keyong-area .item {
+    height: 120px;
+    background-image: url(../img/hongbaobg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat; }
+    .keyong-area .item .left-box {
+      height: 120px;
+      width: 38%;
+      box-sizing: border-box;
+      padding: 10px;
+      float: left;
+      text-align: center; }
+      .keyong-area .item .left-box .img {
+        width: 90%; }
+    .keyong-area .item .right-box {
+      width: 62%;
+      float: left;
+      height: 120px;
+      padding: 10px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box; }
+      .keyong-area .item .right-box .title {
+        line-height: 30px;
+        font-size: 16px;
+        color: #333; }
+      .keyong-area .item .right-box .tag {
+        line-height: 26px;
+        font-size: 14px;
+        color: #333; }
+      .keyong-area .item .right-box .deadline {
+        line-height: 56px;
+        font-size: 14px;
+        color: #c9c9c9; }
+
+.list-on {
+  display: block; }
+
+/*# sourceMappingURL=list.css.map */

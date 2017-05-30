@@ -1,0 +1,106 @@
+@import url(resetH5.css);
+@import url(base.css);
+html,body{
+  height:100%;
+}
+.container{
+  min-height: 100%;
+  background-color: #eee;
+  padding-top:10px;
+  overflow: hidden;
+}
+
+.list-area{
+  overflow: hidden;
+  background-color: #fff;
+  .item{
+    padding:0 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    a{
+      display: block;
+      height:50px;
+      line-height:50px;
+      border-bottom: 1px solid #eee;
+      .item-name{
+        font-size: 14px;
+        color: #333;
+      }
+      .right-box{
+        float: right;
+        height:50px;
+        overflow: hidden;
+        .avatar{
+          width:48px;
+        }
+        .level{
+          color: #333;
+          font-size:14px;
+          margin-right: 3px;
+          .sex{
+            width:16px;
+            margin-bottom: -2px;
+          }
+        }
+        .unclick{
+          width:50px;
+          margin-right: 3px;
+          margin-bottom: -5px;
+        }
+        .set{
+          width:8px;
+          margin-bottom: -1px;
+        }
+      }
+    }
+  }
+}
+
+.sex-area{
+  position: fixed;
+  left:0;
+  top:0;
+  right:0;
+  bottom:0;
+  background-color: rgba(0,0,0,0.6);
+  .sex-box{
+    position: absolute;
+    left:0;
+    bottom:0;
+    width:100%;
+    box-sizing: border-box;
+    padding:0 10px;
+    font-size: 16px;
+    .sexes{
+      width:100%;
+      .item{
+        background-color: #fff;
+        height:40px;
+        line-height:40px;
+        text-align: center;
+        .icon{
+          width:14px;
+          margin-left: 5px;
+          margin-bottom: -1px;
+        }
+      }
+      .nan{
+        border-radius: 5px 5px 0 0;
+        border-bottom:1px solid #eee;
+      }
+      .nv{
+        border-radius: 0 0 5px 5px;
+      }
+    }
+    .cancel{
+      width:100%;
+      border-radius: 5px;
+      background-color: #fff;
+      height:40px;
+      line-height:40px;
+      font-size:16px;
+    }
+  }
+}

@@ -1,0 +1,60 @@
+@import url(resetH5.css);
+@import url(base.css);
+html, body {
+  height: 100%;
+  background-color: #eee; }
+
+.container {
+  min-height: 100%;
+  background-color: #eee;
+  padding-top: 10px;
+  box-sizing: border-box; }
+
+.edit-area {
+  overflow: hidden;
+  background-color: #fff;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
+  overflow: hidden;
+  border-bottom: 1px solid #eee; }
+  .edit-area .left-box {
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    font-size: 16px; }
+    .edit-area .left-box ::-webkit-input-placeholder {
+      /* WebKit browsers */
+      color: #c9c9c9;
+      font-size: 15px; }
+    .edit-area .left-box .input {
+      padding-left: 10px;
+      font-size: 16px;
+      height: 24px;
+      line-height: 24px;
+      background-color: #fff;
+      width: 180px; }
+  .edit-area .right-box {
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #006eff;
+    float: right;
+    padding-left: 10px;
+    border-left: 1px solid #eee; }
+
+.btn-area {
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+  .btn-area .btn-submit {
+    border-radius: 5px;
+    color: #fff;
+    width: 100%;
+    background-color: #c9c9c9;
+    font-size: 17px;
+    height: 40px; }
+
+/*# sourceMappingURL=changephone.css.map */

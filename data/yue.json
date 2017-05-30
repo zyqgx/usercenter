@@ -1,0 +1,28 @@
+{
+    "code": "0",
+    "message": "",
+    "data": {
+        "balance": 1258.0,
+        "records": [{
+            "type": "activityreward",
+            "amount": 100,
+            "alttime": "123456"
+        }, {
+            "type": "recharge",
+            "amount": 100,
+            "alttime": "123456"
+        }, {
+            "type": "orderpay",
+            "amount": -100,
+            "alttime": "123456"
+        }, {
+            "type": "pointexchange",
+            "amount": 100,
+            "alttime": "123456"
+        }, {
+            "type": "rechargereward",
+            "amount": 100,
+            "alttime": "123456"
+        }]
+    }
+}

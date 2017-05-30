@@ -1,0 +1,90 @@
+@import url(resetH5.css);
+@import url(base.css);
+
+.yue-area{
+  text-align: center;
+  .des{
+    font-size: 16px;
+    color: #333;
+    margin-top:60px;
+  }
+  .number{
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #333;
+    line-height:80px;
+  }
+  .chong{
+    border:1px solid rgba(255,85,85,0.5);
+    width: 90px;
+    border-radius: 5px;
+    height:30px;
+    font-size:16px;
+    color: #f55;
+    background-color: #fff;
+  }
+  .fan{
+    font-size:12px;
+    color: #f55;
+    height:40px;
+    line-height: 40px;
+  }
+}
+
+
+
+.list-area{
+  .item{
+    &:nth-child(1){
+      a{
+        border-top: 1px solid #eee;
+      }
+    }
+    padding:0 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    a{
+      display: block;
+
+      padding: 10px 0;
+      border-bottom: 1px solid #eee;
+      overflow: hidden;
+     .left-img{
+       width:50px;
+       height:50px;
+       float: left;
+     }
+      .right-box{
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding-left: 60px;
+        height:50px;
+        .txt{
+          line-height:25px;
+          display: inline-block;
+          .name{
+            color: #333;
+            font-size: 14px;
+          }
+          .time{
+            color: #c9c9c9;
+            font-size: 12px;
+            font-family: sans-serif;
+          }
+        }
+        .money{
+          //font-family:sans-serif;
+          height:50px;
+          line-height:50px;
+          float: right;
+          color: #f55;
+          font-size:14px;
+        }
+      }
+    }
+  }
+}
+
