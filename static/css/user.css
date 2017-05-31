@@ -1,14 +1,14 @@
 @import url(resetH5.css);
-
-
-.top-container{
-	width: 100%;
+.top-container {
+    width: 100%;
     position: relative;
 }
-.top-container .bg-imge{
-	width: 100%;
+
+.top-container .bg-imge {
+    width: 100%;
 }
-.top-container .touxiang{
+
+.top-container .touxiang {
     position: absolute;
     left: 0;
     top: 0;
@@ -19,66 +19,76 @@
     flex-direction: column;
     align-items: center;
 }
-.top-container .touxiang img{
+
+.top-container .touxiang img {
     width: 30%;
 }
-.top-container .touxiang .username{
+
+.top-container .touxiang .username {
     font-size: 20px;
     color: #eee;
-} 
+}
 
-.cash-area{
-
+.cash-area {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding-top: 10px;
     line-height: 30px;
     padding-bottom: 10px;
-
-}
-.cash-area .col{
-  font-size: 14px;
-  color:#333;
-  width:33.33%;
-  text-align: center;
-}
-.cash-area .col .back{
-	color: red;
 }
 
-.thanks{
-	width: 100%;
-}
-.thanks img{
-	width: 100%;
-}
-
-.member{
-	font-size: 14px;
-	color: #333;
+.cash-area .col {
+    font-size: 14px;
+    color: #333;
+    width: 33.33%;
+    text-align: center;
 }
 
-.member .item{
-	padding: 0 10px;
-	box-sizing: border-box;
+.cash-area .col .back {
+    color: red;
 }
-.member .item a{
-	display: block;
-	height: 40px;
-	line-height: 40px;
+
+.thanks {
+    width: 100%;
+}
+
+.thanks img {
+    width: 100%;
+}
+
+.member {
+    font-size: 14px;
+    color: #333;
+}
+
+.member .item {
+    padding: 0 10px;
+}
+
+.member .item a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #eee;
 }
 .member .item a .right-box{
-	float: right;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
 }
-.member .item a .right-box img{
-    width:8px;
+.member .item a .right-box img {
+    width: 10px;
+    height: 10px;
 }
 
-.servetel{
-	text-align: center;
-	font-size: 12px;
-	height: 40px;
-	line-height: 40px;
-	color: #333;
+.servetel {
+    text-align: center;
+    font-size: 12px;
+    height: 40px;
+    line-height: 40px;
+    color: #333;
 }
